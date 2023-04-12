@@ -1,0 +1,23 @@
+{
+    "name": "artemka13/simple-dimple",
+    "description": "practice",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artem",
+            "email": "kalabin2004@inbox.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    }
+}
