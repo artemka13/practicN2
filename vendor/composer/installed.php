@@ -3,7 +3,7 @@
         'name' => 'artemka13/simple-dimple',
         'pretty_version' => 'dev-main',
         'version' => 'dev-main',
-        'reference' => 'f24b198416681cbb0eea39ca736a0b5a60391f55',
+        'reference' => '1c70c7208820c93956fdd79cf12033e8e369fb21',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -13,7 +13,7 @@
         'artemka13/simple-dimple' => array(
             'pretty_version' => 'dev-main',
             'version' => 'dev-main',
-            'reference' => 'f24b198416681cbb0eea39ca736a0b5a60391f55',
+            'reference' => '1c70c7208820c93956fdd79cf12033e8e369fb21',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
@@ -135,6 +135,17 @@
             'install_path' => __DIR__ . '/../nesbot/carbon',
             'aliases' => array(
                 0 => '2.x-dev',
+            ),
+            'dev_requirement' => false,
+        ),
+        'nikic/fast-route' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '34128a32009e1b41c4615bcd7d4c39968931e9ea',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../nikic/fast-route',
+            'aliases' => array(
+                0 => '2.0.x-dev',
             ),
             'dev_requirement' => false,
         ),
