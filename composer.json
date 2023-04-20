@@ -1,6 +1,6 @@
 {
     "name": "artemka13/simple-dimple",
-    "description": "practice",
+    "description": "practic",
     "type": "project",
     "license": "MIT",
     "authors": [
@@ -11,8 +11,8 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": "^7.4 | ^8.0"
-
+        "illuminate/database": "10.x-dev",
+        "illuminate/events": "10.x-dev"
     },
     "autoload": {
         "psr-4": {
@@ -20,4 +20,5 @@
             "": "app/"
         }
     }
+
 }
